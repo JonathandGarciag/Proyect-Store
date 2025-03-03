@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "e535e461-deaa-468b-bd1c-0b43802c246c",
+		"name": "Checkout",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38078627"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDg2MjUsImV4cCI6MTc0MDk1MjIyNX0.zf3VKtZRGbmCICTX4ROJTHyosjuhWiQBszv6c_QEk8s",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"paymentMethod\": \"credit_card\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/checkout/pay",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"checkout",
+						"pay"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "a7957a31-35ae-49d7-8a84-220a58ba0445",
+		"name": "History",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38078627"
+	},
+	"item": [
+		{
+			"name": "View Historial",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

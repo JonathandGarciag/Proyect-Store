@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "958885b5-632d-4d79-b066-b3bb094a8e30",
+		"_postman_id": "f07ae2d1-8b4c-4601-809e-191a1a7d6e9b",
 		"name": "Category",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "42619043"
+		"_exporter_id": "38078627"
 	},
 	"item": [
 		{
@@ -43,6 +43,90 @@
 						"vfinal",
 						"category",
 						"newCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Category",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update Category",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzOTY2ZTQ1NGFmMGIzZjIyZTEzNzciLCJpYXQiOjE3NDA4NzIyMDEsImV4cCI6MTc0MDg3NTgwMX0.ArP92W_7qyXygXY1E1i7LfSnvW49Szjr5TM98dqD7Fo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ciencia\",\r\n    \"description\": \"Categoría relacionada a la Ciencia y sus novedades.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/category/viewCategory/67c39a36502d6ea037525413",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"category",
+						"viewCategory",
+						"67c39a36502d6ea037525413"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Category",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzOTY2ZTQ1NGFmMGIzZjIyZTEzNzciLCJpYXQiOjE3NDA4NzIyMDEsImV4cCI6MTc0MDg3NTgwMX0.ArP92W_7qyXygXY1E1i7LfSnvW49Szjr5TM98dqD7Fo",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Ciencia\",\r\n    \"description\": \"Categoría relacionada a la Ciencia y sus novedades.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/category/deleteCategory/67c39a36502d6ea037525413",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"category",
+						"deleteCategory",
+						"67c39a36502d6ea037525413"
 					]
 				}
 			},

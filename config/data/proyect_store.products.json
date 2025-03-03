@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "67c422c6ec46d40a4dc9b64f"
+  },
+  "name": "Laptop Gamer Pro 3901",
+  "description": "Laptop de alto rendimiento para juegos y programación",
+  "price": 1700,
+  "stock": 6,
+  "sales": 13,
+  "category": {
+    "$oid": "67c40d794c932c8132032fcc"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-02T09:20:06.250Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T22:46:59.359Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c422ceec46d40a4dc9b654"
+  },
+  "name": "Lavaropa",
+  "description": "Lavaropa que lava y seca",
+  "price": 1500,
+  "stock": 10,
+  "sales": 0,
+  "category": {
+    "$oid": "67c3ababc11f9485aad4c63e"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-02T09:20:14.229Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T09:20:57.162Z"
+  }
+}]

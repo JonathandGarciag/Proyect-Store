@@ -1,12 +1,24 @@
 [{
   "_id": {
-    "$oid": "67bd49e8f7e0e92d270fdf7f"
+    "$oid": "67c3abacc11f9485aad4c646"
   },
-  "role": "ADMIN_ROLE"
+  "role": "ADMIN_ROLE",
+  "createdAt": {
+    "$date": "2025-03-02T00:51:56.353Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T00:51:56.353Z"
+  }
 },
 {
   "_id": {
-    "$oid": "67bd49edf7e0e92d270fdf81"
+    "$oid": "67c3abacc11f9485aad4c649"
   },
-  "role": "CLIENT_ROLE"
+  "role": "CLIENT_ROLE",
+  "createdAt": {
+    "$date": "2025-03-02T00:51:56.361Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T00:51:56.361Z"
+  }
 }]

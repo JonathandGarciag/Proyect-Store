@@ -1,0 +1,87 @@
+[{
+  "_id": {
+    "$oid": "67c4c91499c3a2d9e592d6fe"
+  },
+  "user": {
+    "$oid": "67c3c1c81a50ee5d18751c94"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c422c6ec46d40a4dc9b64f"
+      },
+      "quantity": 3,
+      "price": 1700,
+      "_id": {
+        "$oid": "67c4c91499c3a2d9e592d6ff"
+      }
+    }
+  ],
+  "total": 5100,
+  "paymentMethod": "credit_card",
+  "status": "paid",
+  "createdAt": {
+    "$date": "2025-03-02T21:09:40.261Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T21:09:40.261Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c4d156340f1694dcc60384"
+  },
+  "user": {
+    "$oid": "67c3c1c81a50ee5d18751c94"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c422c6ec46d40a4dc9b64f"
+      },
+      "quantity": 3,
+      "price": 1700,
+      "_id": {
+        "$oid": "67c4dfe36091ee5b44eb54b9"
+      }
+    }
+  ],
+  "total": 5100,
+  "paymentMethod": "credit_card",
+  "status": "paid",
+  "createdAt": {
+    "$date": "2025-03-02T21:44:54.707Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T22:46:59.383Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c4d30befa90ee8fc6a3149"
+  },
+  "user": {
+    "$oid": "67c3c1c81a50ee5d18751c94"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c422c6ec46d40a4dc9b64f"
+      },
+      "quantity": 2,
+      "price": 1700,
+      "_id": {
+        "$oid": "67c4d30befa90ee8fc6a314a"
+      }
+    }
+  ],
+  "total": 3400,
+  "paymentMethod": "credit_card",
+  "status": "paid",
+  "createdAt": {
+    "$date": "2025-03-02T21:52:11.790Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T21:52:11.790Z"
+  }
+}]

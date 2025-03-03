@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "9125b0d0-aa25-4586-8e87-f6c41b62597e",
+		"name": "Users",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38078627"
+	},
+	"item": [
+		{
+			"name": "View User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Upd-profile user",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFmMTFhNTBlZTVkMTg3NTFjOTgiLCJpYXQiOjE3NDA4ODMxNDUsImV4cCI6MTc0MDg4Njc0NX0._3_bx7EMUGarwxOr22Gf00svijQPpipq2hmtAqPzf3g",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Estuardo Mendez Lopez\",\r\n    \"username\": \"tato02\",\r\n    \"password\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/user/updProfile/67c3c1f11a50ee5d18751c98",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"user",
+						"updProfile",
+						"67c3c1f11a50ee5d18751c98"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upd-preferences user",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFmMTFhNTBlZTVkMTg3NTFjOTgiLCJpYXQiOjE3NDA4ODMxNDUsImV4cCI6MTc0MDg4Njc0NX0._3_bx7EMUGarwxOr22Gf00svijQPpipq2hmtAqPzf3g",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"tato02@gmail.com\",\r\n    \"password\": \"87654321\",\r\n    \"oldPassword\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/user/updProfile/67c3c1f11a50ee5d18751c98",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"user",
+						"updProfile",
+						"67c3c1f11a50ee5d18751c98"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFiNjFhNTBlZTVkMTg3NTFjOTEiLCJpYXQiOjE3NDA4ODgxNDQsImV4cCI6MTc0MDg5MTc0NH0.j_ZeuW1ssGtAzETCnOB7_R4Nfz8Y-wN4ruEdRzrzH58",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\": \"12345678\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/user/deleteUser/67c3c1b61a50ee5d18751c91",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"user",
+						"deleteUser",
+						"67c3c1b61a50ee5d18751c91"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

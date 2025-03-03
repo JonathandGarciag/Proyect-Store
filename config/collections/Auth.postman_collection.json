@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "327357e1-e3a9-4952-80c3-74d6a15ae4cf",
+		"_postman_id": "5c6ad375-263c-485b-922d-c7933bd50403",
 		"name": "Auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "42619043"
+		"_exporter_id": "38078627"
 	},
 	"item": [
 		{
@@ -45,6 +45,37 @@
 				"body": {
 					"mode": "raw",
 					"raw": "{\r\n  \"email\": \"jgarciadmin@gmail.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"D1egg@example.com\",\r\n  \"password\": \"12345678\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

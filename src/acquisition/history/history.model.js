@@ -6,14 +6,28 @@ const PurchaseHistorySchema = new mongoose.Schema({
         ref: 'User', 
         required: true 
     },
-    invoices: [{ 
-        type: mongoose.Schema.Types.ObjectId, 
-        ref: 'Invoice' 
-    }],
-    createdAt: { 
-        type: Date, 
-        default: Date.now 
+    purchases: [
+        {
+            invoice: {
+                type: mongoose.Schema.Types.ObjectId,
+                ref: "Invoice",
+                required: true
+            },
+            date: {
+                type: Date,
+                default: Date.now
+            }
+        }
+    ],
+    status: {
+        type: Boolean,
+        default: true,
+    },
+},
+    {
+        timestamps: true,
+        versionKey: false
     }
-});
+);
 
 export default mongoose.model('PurchaseHistory', PurchaseHistorySchema);

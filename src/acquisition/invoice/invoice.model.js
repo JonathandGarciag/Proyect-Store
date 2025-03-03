@@ -14,6 +14,11 @@ const InvoiceSchema = new mongoose.Schema({
         },
         quantity: { 
             type: Number, 
+            required: true,
+            min: 1
+        },
+        price: { 
+            type: Number, 
             required: true 
         }
     }],
@@ -21,10 +26,21 @@ const InvoiceSchema = new mongoose.Schema({
         type: Number, 
         required: true 
     },
-    createdAt: { 
-        type: Date, 
-        default: Date.now 
+    paymentMethod: { 
+        type: String, 
+        enum: ['credit_card', 'cash'], 
+        required: true 
+    },
+    status: { 
+        type: String, 
+        enum: ['paid'], 
+        default: 'paid' 
+    }, 
+},
+    {
+        timestamps: true,
+        versionKey: false
     }
-});
+);
 
 export default mongoose.model('Invoice', InvoiceSchema);

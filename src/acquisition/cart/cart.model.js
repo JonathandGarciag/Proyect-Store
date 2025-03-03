@@ -14,10 +14,20 @@ const CartSchema = new mongoose.Schema({
         },
         quantity: { 
             type: Number, 
-            required: true 
+            required: true,
+            min: 1
         }
     }],
-    createdAt: { type: Date, default: Date.now }
-});
+    status: { 
+        type: String, 
+        enum: ['active', 'processed'], 
+        default: 'active' 
+    },
+},
+    {
+        timestamps: true,
+        versionKey: false
+    }
+);
 
 export default mongoose.model('Cart', CartSchema);

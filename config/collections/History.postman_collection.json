@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "3238a859-e0ba-4e5a-afab-99d68306455a",
+		"name": "History",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619043"
+	},
+	"item": [
+		{
+			"name": "View Historial",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/history/userRegister",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"history",
+						"userRegister"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

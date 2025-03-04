@@ -1,0 +1,187 @@
+{
+	"info": {
+		"_postman_id": "a2a610fa-70ff-4698-b0c8-82d50de5584a",
+		"name": "Get Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619043"
+	},
+	"item": [
+		{
+			"name": "View All Product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/allProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"allProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/byId/67c422c6ec46d40a4dc9b64f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"byId",
+						"67c422c6ec46d40a4dc9b64f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Stock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/out-of-stock",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"out-of-stock"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Top-Selling",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/top-selling",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"top-selling"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View For Name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/filter?search=Laptop",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Laptop"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View For Category",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/filter?category=Tecnología",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "Tecnología"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View Combined",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/filter?search=Laptop&category=Tecnología",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"filter"
+					],
+					"query": [
+						{
+							"key": "search",
+							"value": "Laptop"
+						},
+						{
+							"key": "category",
+							"value": "Tecnología"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

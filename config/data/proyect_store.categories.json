@@ -1,30 +1,60 @@
 [{
   "_id": {
-    "$oid": "67bdd1f6fa9e4bce7eadee43"
+    "$oid": "67c3ababc11f9485aad4c63e"
   },
   "name": "General",
   "description": "Categoría predeterminada",
   "isDefault": true,
   "status": true,
   "createdAt": {
-    "$date": "2025-02-25T14:21:42.990Z"
+    "$date": "2025-03-02T00:51:55.795Z"
   },
   "updatedAt": {
-    "$date": "2025-02-25T14:21:42.990Z"
+    "$date": "2025-03-02T00:51:55.795Z"
   }
 },
 {
   "_id": {
-    "$oid": "67be021d88000add73cc5807"
+    "$oid": "67c3abd1c11f9485aad4c64e"
   },
-  "name": "Tecnología",
-  "description": "Categoría relacionada con todo lo tecnológico.",
+  "name": "Ciencia",
+  "description": "Categoría relacionada a la Ciencia.",
   "isDefault": false,
   "status": true,
   "createdAt": {
-    "$date": "2025-02-25T17:47:09.984Z"
+    "$date": "2025-03-02T00:52:33.050Z"
   },
   "updatedAt": {
-    "$date": "2025-02-25T17:47:09.984Z"
+    "$date": "2025-03-02T00:52:33.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c3abdcc11f9485aad4c652"
+  },
+  "name": "Agricultura",
+  "description": "Categoría relacionada a la agricultura y cultivos.",
+  "isDefault": false,
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-02T00:52:44.959Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T01:08:42.668Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c40d794c932c8132032fcc"
+  },
+  "name": "Tecnología",
+  "description": "Categoría relacionada a la Tecnología.",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-02T07:49:13.737Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T07:49:13.737Z"
   }
 }]

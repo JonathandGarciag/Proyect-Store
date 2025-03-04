@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "5d247d44-59fe-47fa-8890-a60bcac7caf2",
+		"name": "Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38078627"
+	},
+	"item": [
+		{
+			"name": "New Product",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDM4MzUsImV4cCI6MTc0MDkwNzQzNX0.uLyy8RfI_MmMawxhns1we-HZ4Sv1_eBCl8oX8Y5y6Yk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Lavaropa\",\r\n    \"description\": \"Lavaropa que lava y seca\",\r\n    \"price\": 1500,\r\n    \"stock\": 10,\r\n    \"category\": \"General\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/newProduct",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"newProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Product",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDM4MzUsImV4cCI6MTc0MDkwNzQzNX0.uLyy8RfI_MmMawxhns1we-HZ4Sv1_eBCl8oX8Y5y6Yk",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Laptop Gamer Pro 3901\",\r\n    \"description\": \"Laptop de alto rendimiento para juegos y programación\",\r\n    \"price\": 1700,\r\n    \"stock\": 15,\r\n    \"category\": \"Tecnología\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/updProduct/67c422c6ec46d40a4dc9b64f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"updProduct",
+						"67c422c6ec46d40a4dc9b64f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Stock",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDAyMzAsImV4cCI6MTc0MDkwMzgzMH0.KZEFsvRU-Qq-1XDpnnUZzSzcFIfSmYxOoE4R_3YRwhM",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"stock\": 20\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/updstock/67c422c6ec46d40a4dc9b64f",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"updstock",
+						"67c422c6ec46d40a4dc9b64f"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Stock Copy",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDY0OTUsImV4cCI6MTc0MDkxMDA5NX0.F8FuNQoAaD4bJ2zCunlQdKfiu7WtwoNdscnjw5VV21Y",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/deleteProduct/67c422ceec46d40a4dc9b654",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"product",
+						"deleteProduct",
+						"67c422ceec46d40a4dc9b654"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

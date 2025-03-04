@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "327357e1-e3a9-4952-80c3-74d6a15ae4cf",
+		"_postman_id": "5c6ad375-263c-485b-922d-c7933bd50403",
 		"name": "Auth",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "42619043"
+		"_exporter_id": "38078627"
 	},
 	"item": [
 		{
@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Carlos Borrayo\",\r\n    \"username\": \"pallo\",\r\n    \"email\": \"pallo@example.com\",\r\n    \"password\": \"12345678\"\r\n}\r\n",
+					"raw": "{\r\n  \"name\": \"Diego García\",\r\n  \"username\": \"D1egg\",\r\n  \"email\": \"D1egg@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -69,13 +69,44 @@
 			"response": []
 		},
 		{
+			"name": "Login Client",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"crobano@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/auth/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "RoleUpdate",
 			"request": {
 				"method": "PUT",
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDMwN2VkNjI3ZGMyMzZlMjFjY2EiLCJpYXQiOjE3NDA0OTcxNzUsImV4cCI6MTc0MDUwMDc3NX0.lW7keGEaC7K1S9N_BmbLzfgRMvpv2uqRPTqjOy85WjQ",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA4ODI0NzEsImV4cCI6MTc0MDg4NjA3MX0.fgPQcS7i7AwZGQoV28HC152zcNjaR3n3MKD78x_RpHg",
 						"type": "text"
 					}
 				],
@@ -89,7 +120,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/auth/updateRole/67bdde3965ee6ed91a7e236a",
+					"raw": "http://localhost:3000/proyect-store/vfinal/auth/updateRole/67c3c20f1a50ee5d18751c9e",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -100,7 +131,7 @@
 						"vfinal",
 						"auth",
 						"updateRole",
-						"67bdde3965ee6ed91a7e236a"
+						"67c3c20f1a50ee5d18751c9e"
 					]
 				}
 			},

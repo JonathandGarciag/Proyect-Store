@@ -18,15 +18,24 @@ const ProductSchema = new mongoose.Schema({
         required: true, 
         default: 0 
     },
+    sales: {
+        type: Number,
+        default: 0
+    },    
     category: { 
         type: mongoose.Schema.Types.ObjectId, 
         ref: 'Category', 
         required: true 
     },
-    createdAt: { 
-        type: Date, 
-        default: Date.now 
+    status: {
+        type: Boolean,
+        default: true,
     }
-});
+},
+    {
+        timestamps: true,
+        versionKey: false
+    }
+);
 
 export default mongoose.model('Product', ProductSchema);

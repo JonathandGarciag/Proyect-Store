@@ -1,25 +1,25 @@
 {
 	"info": {
-		"_postman_id": "e535e461-deaa-468b-bd1c-0b43802c246c",
+		"_postman_id": "fcfd7bf5-2ff4-45f7-8bbc-983dfc5a006b",
 		"name": "Checkout",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "38078627"
+		"_exporter_id": "42619043"
 	},
 	"item": [
 		{
-			"name": "Pay - Invoice",
+			"name": "New Request",
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDEwNTE1MjgsImV4cCI6MTc0MTA1NTEyOH0.7AqEiN5mVvlFP5VYXQSwJ0miD6qISYJHTpOZeCz8n74",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDRhZGViYzZiNmI0MjJiZmMyNDQiLCJpYXQiOjE3NDExMDcyNDksImV4cCI6MTc0MTExMDg0OX0.89qVk876SRR205VjMR_6QgB1h6MW5k4CvxAccCkRoz0",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"paymentMethod\": \"credit_card\"\r\n}\r\n",
+					"raw": "{\r\n    \"paymentMethod\": \"cash\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"

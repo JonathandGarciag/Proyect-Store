@@ -5,8 +5,8 @@
   "name": "Laptop Gamer Pro 3901",
   "description": "Laptop de alto rendimiento para juegos y programación",
   "price": 1700,
-  "stock": 6,
-  "sales": 13,
+  "stock": 3,
+  "sales": 16,
   "category": {
     "$oid": "67c40d794c932c8132032fcc"
   },
@@ -15,7 +15,7 @@
     "$date": "2025-03-02T09:20:06.250Z"
   },
   "updatedAt": {
-    "$date": "2025-03-02T22:46:59.359Z"
+    "$date": "2025-03-04T16:54:17.084Z"
   }
 },
 {
@@ -36,5 +36,65 @@
   },
   "updatedAt": {
     "$date": "2025-03-02T09:20:57.162Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c726059e01319ea8dec2d8"
+  },
+  "name": "Celular Samsumg S25",
+  "description": "Celular ultimo modelo de S",
+  "price": 1000,
+  "stock": 22,
+  "sales": 3,
+  "category": {
+    "$oid": "67bdd1f6fa9e4bce7eadee43"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-04T16:10:45.081Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T17:12:18.076Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7316d09fc4cb397321a79"
+  },
+  "name": "Teclado",
+  "description": "Teclado pequeño sin Num Lock",
+  "price": 300,
+  "stock": 0,
+  "sales": 0,
+  "category": {
+    "$oid": "67bdd1f6fa9e4bce7eadee43"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-04T16:59:25.447Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T16:59:25.447Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c7327c09fc4cb397321a88"
+  },
+  "name": "Mouse i",
+  "description": "Mouse inalambrico con peso",
+  "price": 250,
+  "stock": 0,
+  "sales": 0,
+  "category": {
+    "$oid": "67c7326e09fc4cb397321a83"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-04T17:03:56.813Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T17:03:56.813Z"
   }
 }]

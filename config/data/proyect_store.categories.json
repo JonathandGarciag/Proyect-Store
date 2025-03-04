@@ -1,16 +1,31 @@
 [{
   "_id": {
-    "$oid": "67c3ababc11f9485aad4c63e"
+    "$oid": "67bdd1f6fa9e4bce7eadee43"
   },
   "name": "General",
   "description": "Categoría predeterminada",
   "isDefault": true,
   "status": true,
   "createdAt": {
-    "$date": "2025-03-02T00:51:55.795Z"
+    "$date": "2025-02-25T14:21:42.990Z"
   },
   "updatedAt": {
-    "$date": "2025-03-02T00:51:55.795Z"
+    "$date": "2025-02-25T14:21:42.990Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67be021d88000add73cc5807"
+  },
+  "name": "Tecnología",
+  "description": "Categoría de productos tecnologicos.",
+  "isDefault": false,
+  "status": false,
+  "createdAt": {
+    "$date": "2025-02-25T17:47:09.984Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-26T17:31:34.178Z"
   }
 },
 {
@@ -45,16 +60,31 @@
 },
 {
   "_id": {
-    "$oid": "67c40d794c932c8132032fcc"
+    "$oid": "67c7326e09fc4cb397321a83"
   },
-  "name": "Tecnología",
-  "description": "Categoría relacionada a la Tecnología.",
+  "name": "Complementos",
+  "description": "Complementos computacionales.",
   "isDefault": false,
   "status": true,
   "createdAt": {
-    "$date": "2025-03-02T07:49:13.737Z"
+    "$date": "2025-03-04T17:03:42.887Z"
   },
   "updatedAt": {
-    "$date": "2025-03-02T07:49:13.737Z"
+    "$date": "2025-03-04T17:03:42.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c732a509fc4cb397321a8c"
+  },
+  "name": "Quimica",
+  "description": "Utencilios de quimica.",
+  "isDefault": false,
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-04T17:04:37.056Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T17:04:37.056Z"
   }
 }]

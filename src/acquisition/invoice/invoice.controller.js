@@ -1,7 +1,6 @@
 import { response } from "express";
 import Invoice from './invoice.model.js'
-import Product from '../../product/product.model.js';
-
+import {validateAndUpdateStockSales} from '../../helpers/invoice.helper.js';
 
 export const getInvoicesByUser = async (req, res) => {
     try {
@@ -73,14 +72,14 @@ export const updateInvoice = async (req, res) => {
         invoice.total = totalAmount;
         await invoice.save();
 
-        res.status(200).json({ 
+        return res.status(200).json({ 
             success: true, 
             msg: "Factura actualizada con éxito", 
             invoice 
         });
     } catch (error) {
         console.error("Error en updateInvoice:", error);
-        res.status(500).json({ 
+        return res.status(500).json({ 
             success: false, 
             msg: error.message 
         });

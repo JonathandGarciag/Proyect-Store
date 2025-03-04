@@ -13,4 +13,30 @@
   "updatedAt": {
     "$date": "2025-03-02T21:52:11.803Z"
   }
+},
+{
+  "_id": {
+    "$oid": "67c717ef4e5c62d26209e2f2"
+  },
+  "user": {
+    "$oid": "67bdd4adebc6b6b422bfc244"
+  },
+  "createdAt": {
+    "$date": "2025-03-04T15:10:39.034Z"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c726059e01319ea8dec2d8"
+      },
+      "quantity": 2,
+      "_id": {
+        "$oid": "67c7307309fc4cb397321a6d"
+      }
+    }
+  ],
+  "status": "processed",
+  "updatedAt": {
+    "$date": "2025-03-04T16:55:15.575Z"
+  }
 }]

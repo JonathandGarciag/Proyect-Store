@@ -32,9 +32,15 @@
 			"name": "View Invoice By Id",
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDRhZGViYzZiNmI0MjJiZmMyNDQiLCJpYXQiOjE3NDExMDcyNDksImV4cCI6MTc0MTExMDg0OX0.89qVk876SRR205VjMR_6QgB1h6MW5k4CvxAccCkRoz0",
+						"type": "text"
+					}
+				],
 				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/invoice/67c4c91499c3a2d9e592d6fe",
+					"raw": "http://localhost:3000/proyect-store/vfinal/invoice/67c7303909fc4cb397321a60",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -44,7 +50,7 @@
 						"proyect-store",
 						"vfinal",
 						"invoice",
-						"67c4c91499c3a2d9e592d6fe"
+						"67c7303909fc4cb397321a60"
 					]
 				}
 			},
@@ -57,18 +63,13 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NTIyOTIsImV4cCI6MTc0MDk1NTg5Mn0.tI1I8DinMeDc3_rPx6N-N5GeQBerDWw5-uzfVtsysj4",
-						"type": "text"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/json",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDRhZGViYzZiNmI0MjJiZmMyNDQiLCJpYXQiOjE3NDExMDcyNDksImV4cCI6MTc0MTExMDg0OX0.89qVk876SRR205VjMR_6QgB1h6MW5k4CvxAccCkRoz0",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"name\": \"Laptop Gamer Pro 3901\",\r\n            \"quantity\": 2\r\n        }\r\n    ]\r\n}\r\n",
+					"raw": "{\r\n    \"products\": [\r\n        {\r\n            \"name\": \"Celular Samsumg S25\",\r\n            \"quantity\": 3\r\n        }\r\n    ]\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -76,7 +77,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/invoice/updInvo/67c4d156340f1694dcc60384",
+					"raw": "http://localhost:3000/proyect-store/vfinal/invoice/updInvo/67c7303909fc4cb397321a60",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -87,7 +88,7 @@
 						"vfinal",
 						"invoice",
 						"updInvo",
-						"67c4d156340f1694dcc60384"
+						"67c7303909fc4cb397321a60"
 					]
 				}
 			},

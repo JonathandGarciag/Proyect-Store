@@ -8,9 +8,21 @@
 	"item": [
 		{
 			"name": "View User",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
 				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://localhost:3000/proyect-store/vfinal/user/viewUser",
 					"protocol": "http",

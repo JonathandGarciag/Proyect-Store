@@ -8,9 +8,27 @@
 	"item": [
 		{
 			"name": "View Historial",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
 				"method": "GET",
-				"header": [],
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDRhZGViYzZiNmI0MjJiZmMyNDQiLCJpYXQiOjE3NDExMDAyODQsImV4cCI6MTc0MTEwMzg4NH0.Xug9brCRr3o789w0sBng3IwV2w7dfhyC_PazEK3XNbc",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
 				"url": {
 					"raw": "http://localhost:3000/proyect-store/vfinal/history/userRegister",
 					"protocol": "http",

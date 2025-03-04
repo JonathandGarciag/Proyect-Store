@@ -84,4 +84,33 @@
   "updatedAt": {
     "$date": "2025-03-02T21:52:11.790Z"
   }
+},
+{
+  "_id": {
+    "$oid": "67c7303909fc4cb397321a60"
+  },
+  "user": {
+    "$oid": "67bdd4adebc6b6b422bfc244"
+  },
+  "products": [
+    {
+      "product": {
+        "$oid": "67c726059e01319ea8dec2d8"
+      },
+      "quantity": 3,
+      "price": 1000,
+      "_id": {
+        "$oid": "67c7347209fc4cb397321aab"
+      }
+    }
+  ],
+  "total": 3000,
+  "paymentMethod": "cash",
+  "status": "paid",
+  "createdAt": {
+    "$date": "2025-03-04T16:54:17.093Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-04T17:12:18.079Z"
+  }
 }]

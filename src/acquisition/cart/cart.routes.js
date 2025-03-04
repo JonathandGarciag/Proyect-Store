@@ -1,6 +1,6 @@
 import { Router } from "express";
 import { check } from "express-validator";
-import { addToCart, getCart, removeFromCart } from "./cart.controller.js";
+import { addToCart, getCart } from "./cart.controller.js";
 import { validarJWT } from "../../middlewares/validar-jwt.js";
 import { validarCampos } from "../../middlewares/validar-campos.js";
 
@@ -20,13 +20,5 @@ router.get(
     getCart
 );
 
-router.delete(
-    '/remove', 
-    [
-        validarJWT,
-        validarCampos,
-    ],
-    removeFromCart
-);
 
 export default router;

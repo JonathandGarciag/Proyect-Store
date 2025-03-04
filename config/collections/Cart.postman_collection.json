@@ -1,25 +1,25 @@
 {
 	"info": {
-		"_postman_id": "3d3e22e7-ad61-41b8-b020-24b31d3bb844",
+		"_postman_id": "cc85e0a9-e4ef-4f14-8164-bbc4079ddbba",
 		"name": "Cart",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "38078627"
+		"_exporter_id": "42619043"
 	},
 	"item": [
 		{
-			"name": "New Cart",
+			"name": "Add Cart",
 			"request": {
 				"method": "POST",
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDEwNTE1MjgsImV4cCI6MTc0MTA1NTEyOH0.7AqEiN5mVvlFP5VYXQSwJ0miD6qISYJHTpOZeCz8n74",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDRhZGViYzZiNmI0MjJiZmMyNDQiLCJpYXQiOjE3NDExMDQ2NjIsImV4cCI6MTc0MTEwODI2Mn0.N_pxcYqj9t3Pj8SAq4otTPNW_j0HQkenOkEBsfe4xcA",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"crobano@example.com\",\r\n  \"productName\": \"Laptop Gamer Pro 3901\",\r\n  \"quantity\": 2\r\n}",
+					"raw": "{\r\n    \"email\": \"crobano@example.com\",\r\n    \"productName\": \"Celular Samsumg S25\",\r\n    \"quantity\": \"2\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -53,7 +53,7 @@
 				"header": [
 					{
 						"key": "x-toke",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDI5OTAsImV4cCI6MTc0MDk0NjU5MH0.TghJaRcEyLyN5cU2IwuBZ16XaBDs_nojsAIM5PmLk34",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDRhZGViYzZiNmI0MjJiZmMyNDQiLCJpYXQiOjE3NDExMDcyNDksImV4cCI6MTc0MTExMDg0OX0.89qVk876SRR205VjMR_6QgB1h6MW5k4CvxAccCkRoz0",
 						"type": "text"
 					}
 				],
@@ -67,7 +67,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/cart/viewCart/67c3c1c81a50ee5d18751c94",
+					"raw": "http://localhost:3000/proyect-store/vfinal/cart/viewCart/67bdd4adebc6b6b422bfc244",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -78,44 +78,7 @@
 						"vfinal",
 						"cart",
 						"viewCart",
-						"67c3c1c81a50ee5d18751c94"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Delete Cart",
-			"request": {
-				"method": "DELETE",
-				"header": [
-					{
-						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDg2MjUsImV4cCI6MTc0MDk1MjIyNX0.zf3VKtZRGbmCICTX4ROJTHyosjuhWiQBszv6c_QEk8s",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"email\": \"crobano@example.com\",\r\n    \"productName\": \"Laptop Gamer Pro 3901\"\r\n}\r\n",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/cart/remove",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"proyect-store",
-						"vfinal",
-						"cart",
-						"remove"
+						"67bdd4adebc6b6b422bfc244"
 					]
 				}
 			},

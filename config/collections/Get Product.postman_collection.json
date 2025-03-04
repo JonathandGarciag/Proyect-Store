@@ -34,7 +34,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/product/byId/67c422c6ec46d40a4dc9b64f",
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/byId/67c726059e01319ea8dec2d8",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -45,7 +45,7 @@
 						"vfinal",
 						"product",
 						"byId",
-						"67c422c6ec46d40a4dc9b64f"
+						"67c726059e01319ea8dec2d8"
 					]
 				}
 			},

@@ -13,18 +13,13 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDMwN2VkNjI3ZGMyMzZlMjFjY2EiLCJpYXQiOjE3NDA0OTcxNzUsImV4cCI6MTc0MDUwMDc3NX0.lW7keGEaC7K1S9N_BmbLzfgRMvpv2uqRPTqjOy85WjQ",
-						"type": "text"
-					},
-					{
-						"key": "",
-						"value": "",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDMwN2VkNjI3ZGMyMzZlMjFjY2EiLCJpYXQiOjE3NDExMDc3NDAsImV4cCI6MTc0MTExMTM0MH0.3GLXXKK3uHi5ob-PGsLYinkpW-xOZhfy5H3yUC9hIVA",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Tecnología\",\r\n    \"description\": \"Categoría relacionada con todo lo tecnológico.\"\r\n}",
+					"raw": "{\r\n    \"name\": \"Quimica\",\r\n    \"description\": \"Utencilios de quimica.\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

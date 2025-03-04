@@ -49,21 +49,14 @@ export const existeProductoById = async (id = '') => {
     }
 };
 
-export const findUserByEmail = async (email) => {
-    const user = await User.findOne({ email });
-    if (!user) throw new Error("Usuario no encontrado");
-    return user;
+export const validateCart = (cart) => {
+    if (!cart || !cart.products.length) {
+        throw new Error("El carrito está vacío");
+    }
 };
 
-export const findCartByUserId = async (userId) => {
-    const cart = await Cart.findOne({ user: userId });
-    if (!cart) throw new Error("Carrito no encontrado");
-    return cart;
-};
-
-export const findProductByName = async (productName) => {
-    const product = await Product.findOne({ name: productName });
-    if (!product) throw new Error("Producto no encontrado");
-    return product;
+export const validateProductStock = (product, item) => {
+    if (!product) throw new Error(`Producto no encontrado: ${item.product.name}`);
+    if (product.stock < item.quantity) throw new Error(`Stock insuficiente para ${product.name}`);
 };
 

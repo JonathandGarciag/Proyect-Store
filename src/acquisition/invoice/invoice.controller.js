@@ -12,12 +12,6 @@ export const getInvoicesByUser = async (req, res) => {
             return res.status(404).json({ success: false, msg: "No se encontraron facturas para este usuario" });
         }
 
-<<<<<<< HEAD
-        return res.status(200).json({ success: true, invoices });
-    } catch (error) {
-        console.error("Error en getInvoicesByUser:", error);
-        return res.status(500).json({ success: false, msg: "Error al obtener las facturas" });
-=======
         return res.status(200).json({ 
             success: true, 
             invoices 
@@ -29,7 +23,6 @@ export const getInvoicesByUser = async (req, res) => {
             success: false, 
             msg: "Error al obtener las facturas" 
         });
->>>>>>> feature/auth
     }
 };
 
@@ -44,27 +37,19 @@ export const getInvoiceDetails = async (req, res) => {
         const invoice = await Invoice.findById(invoiceId).populate('products.product');
 
         if (!invoice) {
-<<<<<<< HEAD
-            return res.status(404).json({ success: false, msg: "Factura no encontrada" });
-=======
             return res.status(404).json({ 
                 success: false, 
                 msg: "Factura no encontrada" 
             });
->>>>>>> feature/auth
         }
 
         return res.status(200).json({ success: true, invoice });
     } catch (error) {
         console.error("Error en getInvoiceDetails:", error);
-<<<<<<< HEAD
-        return res.status(500).json({ success: false, msg: "Error al obtener los detalles de la factura" });
-=======
         return res.status(500).json({ 
             success: false, 
             msg: "Error al obtener los detalles de la factura" 
         });
->>>>>>> feature/auth
     }
 };
 
@@ -88,12 +73,6 @@ export const updateInvoice = async (req, res) => {
         invoice.total = totalAmount;
         await invoice.save();
 
-<<<<<<< HEAD
-        res.status(200).json({ success: true, msg: "Factura actualizada con éxito", invoice });
-    } catch (error) {
-        console.error("Error en updateInvoice:", error);
-        res.status(500).json({ success: false, msg: error.message });
-=======
         res.status(200).json({ 
             success: true, 
             msg: "Factura actualizada con éxito", 
@@ -105,6 +84,5 @@ export const updateInvoice = async (req, res) => {
             success: false, 
             msg: error.message 
         });
->>>>>>> feature/auth
     }
 };

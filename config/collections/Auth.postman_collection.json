@@ -75,11 +75,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-<<<<<<< HEAD
-					"raw": "{\r\n  \"email\": \"D1egg@example.com\",\r\n  \"password\": \"12345678\"\r\n}",
-=======
 					"raw": "{\r\n  \"email\": \"crobano@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
->>>>>>> feature/auth
 					"options": {
 						"raw": {
 							"language": "json"

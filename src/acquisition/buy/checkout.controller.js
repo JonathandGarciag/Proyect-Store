@@ -31,10 +31,6 @@ export const checkout = async (req, res) => {
             );
         }
 
-<<<<<<< HEAD
-        // Crear factura
-=======
->>>>>>> feature/auth
         const totalAmount = cart.products.reduce((total, item) => total + (item.product.price * item.quantity), 0);
         const invoice = new Invoice({
             user: userId,
@@ -60,13 +56,6 @@ export const checkout = async (req, res) => {
         cart.products = [];
         await cart.save();
 
-<<<<<<< HEAD
-        return res.status(200).json({ success: true, msg: "Compra realizada con éxito", invoice });
-
-    } catch (error) {
-        return console.error("Error en checkout:", error);
-        res.status(500).json({ success: false, msg: "Error al procesar la compra" });
-=======
         return res.status(200).json({ 
             success: true, 
             msg: "Compra realizada con éxito", 
@@ -79,7 +68,6 @@ export const checkout = async (req, res) => {
             success: false, 
             msg: "Error al procesar la compra" 
         });
->>>>>>> feature/auth
     }
 };
 

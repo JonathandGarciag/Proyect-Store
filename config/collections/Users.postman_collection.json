@@ -1,25 +1,15 @@
 {
 	"info": {
-<<<<<<< HEAD
-		"_postman_id": "9125b0d0-aa25-4586-8e87-f6c41b62597e",
-		"name": "Users",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "38078627"
-=======
 		"_postman_id": "c0ba4e58-9317-497a-a9ec-60e8c8adc145",
 		"name": "Users",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "42619043"
->>>>>>> feature/auth
 	},
 	"item": [
 		{
 			"name": "View User",
 			"request": {
 				"method": "GET",
-<<<<<<< HEAD
-				"header": []
-=======
 				"header": [],
 				"url": {
 					"raw": "http://localhost:3000/proyect-store/vfinal/user/viewUser",
@@ -35,7 +25,6 @@
 						"viewUser"
 					]
 				}
->>>>>>> feature/auth
 			},
 			"response": []
 		},

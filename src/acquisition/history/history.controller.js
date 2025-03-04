@@ -1,10 +1,6 @@
 import { response } from "express";
 import PurchaseHistory from './history.model.js'
 
-<<<<<<< HEAD
-
-=======
->>>>>>> feature/auth
 export const getPurchaseHistory = async (req, res) => {
     try {
         const userId = req.user._id;
@@ -22,13 +18,6 @@ export const getPurchaseHistory = async (req, res) => {
             paymentMethod: purchase.invoice.paymentMethod
         }));
 
-<<<<<<< HEAD
-        return res.status(200).json({ success: true, purchases: purchaseSummary });
-
-    } catch (error) {
-        console.error("Error en getPurchaseHistory:", error);
-        return res.status(500).json({ success: false, msg: "Error al obtener el historial de compras" });
-=======
         return res.status(200).json({ 
             success: true, 
             purchases: purchaseSummary 
@@ -40,6 +29,5 @@ export const getPurchaseHistory = async (req, res) => {
             success: false, 
             msg: "Error al obtener el historial de compras" 
         });
->>>>>>> feature/auth
     }
 };

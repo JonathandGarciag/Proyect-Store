@@ -13,12 +13,6 @@
 				"header": [
 					{
 						"key": "x-token",
-<<<<<<< HEAD
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDI5OTAsImV4cCI6MTc0MDk0NjU5MH0.TghJaRcEyLyN5cU2IwuBZ16XaBDs_nojsAIM5PmLk34",
-						"type": "text"
-					}
-				]
-=======
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDEwNTE1MjgsImV4cCI6MTc0MTA1NTEyOH0.7AqEiN5mVvlFP5VYXQSwJ0miD6qISYJHTpOZeCz8n74",
 						"type": "text"
 					}
@@ -46,7 +40,6 @@
 						"add"
 					]
 				}
->>>>>>> feature/auth
 			},
 			"response": []
 		},
@@ -98,31 +91,6 @@
 				"header": [
 					{
 						"key": "x-token",
-<<<<<<< HEAD
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDI5OTAsImV4cCI6MTc0MDk0NjU5MH0.TghJaRcEyLyN5cU2IwuBZ16XaBDs_nojsAIM5PmLk34",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": ""
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Clear Cart",
-			"request": {
-				"method": "DELETE",
-				"header": [
-					{
-						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDI5OTAsImV4cCI6MTc0MDk0NjU5MH0.TghJaRcEyLyN5cU2IwuBZ16XaBDs_nojsAIM5PmLk34",
-						"type": "text"
-					}
-				],
-				"url": {
-					"raw": ""
-=======
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDg2MjUsImV4cCI6MTc0MDk1MjIyNX0.zf3VKtZRGbmCICTX4ROJTHyosjuhWiQBszv6c_QEk8s",
 						"type": "text"
 					}
@@ -149,7 +117,6 @@
 						"cart",
 						"remove"
 					]
->>>>>>> feature/auth
 				}
 			},
 			"response": []

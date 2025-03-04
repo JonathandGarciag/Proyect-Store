@@ -1,25 +1,15 @@
 {
 	"info": {
-<<<<<<< HEAD
-		"_postman_id": "84701966-5222-4824-86e7-91f20bcaf6b7",
-		"name": "Invoice",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "38078627"
-=======
 		"_postman_id": "d4120d67-6995-4a5e-acdb-849ae53e8c1e",
 		"name": "Invoice",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "42619043"
->>>>>>> feature/auth
 	},
 	"item": [
 		{
 			"name": "Invoice User",
 			"request": {
 				"method": "GET",
-<<<<<<< HEAD
-				"header": []
-=======
 				"header": [],
 				"url": {
 					"raw": "http://localhost:3000/proyect-store/vfinal/invoice/all_Invoice",
@@ -35,7 +25,6 @@
 						"all_Invoice"
 					]
 				}
->>>>>>> feature/auth
 			},
 			"response": []
 		},
@@ -43,9 +32,6 @@
 			"name": "View Invoice By Id",
 			"request": {
 				"method": "GET",
-<<<<<<< HEAD
-				"header": []
-=======
 				"header": [],
 				"url": {
 					"raw": "http://localhost:3000/proyect-store/vfinal/invoice/67c4c91499c3a2d9e592d6fe",
@@ -61,7 +47,6 @@
 						"67c4c91499c3a2d9e592d6fe"
 					]
 				}
->>>>>>> feature/auth
 			},
 			"response": []
 		},

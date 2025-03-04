@@ -13,13 +13,21 @@
 				"header": [
 					{
 						"key": "x-token",
+<<<<<<< HEAD
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDAyMzAsImV4cCI6MTc0MDkwMzgzMH0.KZEFsvRU-Qq-1XDpnnUZzSzcFIfSmYxOoE4R_3YRwhM",
+=======
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDM4MzUsImV4cCI6MTc0MDkwNzQzNX0.uLyy8RfI_MmMawxhns1we-HZ4Sv1_eBCl8oX8Y5y6Yk",
+>>>>>>> feature/auth
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n    \"name\": \"Laptop Gamer\",\r\n    \"description\": \"Laptop de alto rendimiento para juegos\",\r\n    \"price\": 1500,\r\n    \"stock\": 10,\r\n    \"category\": \"General\"\r\n}\r\n",
+=======
+					"raw": "{\r\n    \"name\": \"Lavaropa\",\r\n    \"description\": \"Lavaropa que lava y seca\",\r\n    \"price\": 1500,\r\n    \"stock\": 10,\r\n    \"category\": \"General\"\r\n}\r\n",
+>>>>>>> feature/auth
 					"options": {
 						"raw": {
 							"language": "json"
@@ -50,13 +58,21 @@
 				"header": [
 					{
 						"key": "x-token",
+<<<<<<< HEAD
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDAyMzAsImV4cCI6MTc0MDkwMzgzMH0.KZEFsvRU-Qq-1XDpnnUZzSzcFIfSmYxOoE4R_3YRwhM",
+=======
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA5MDM4MzUsImV4cCI6MTc0MDkwNzQzNX0.uLyy8RfI_MmMawxhns1we-HZ4Sv1_eBCl8oX8Y5y6Yk",
+>>>>>>> feature/auth
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n    \"name\": \"Laptop Gamer Pro\",\r\n    \"description\": \"Laptop de alto rendimiento para juegos y programación\",\r\n    \"price\": 1700,\r\n    \"stock\": 15,\r\n    \"category\": \"Tecnología\"\r\n}\r\n",
+=======
+					"raw": "{\r\n    \"name\": \"Laptop Gamer Pro 3901\",\r\n    \"description\": \"Laptop de alto rendimiento para juegos y programación\",\r\n    \"price\": 1700,\r\n    \"stock\": 15,\r\n    \"category\": \"Tecnología\"\r\n}\r\n",
+>>>>>>> feature/auth
 					"options": {
 						"raw": {
 							"language": "json"
@@ -64,7 +80,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "http://localhost:3000/proyect-store/vfinal/product/updProduct/67c408d9e0905708d5c694d2",
+=======
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/updProduct/67c422c6ec46d40a4dc9b64f",
+>>>>>>> feature/auth
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -75,7 +95,11 @@
 						"vfinal",
 						"product",
 						"updProduct",
+<<<<<<< HEAD
 						"67c408d9e0905708d5c694d2"
+=======
+						"67c422c6ec46d40a4dc9b64f"
+>>>>>>> feature/auth
 					]
 				}
 			},
@@ -102,7 +126,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "http://localhost:3000/proyect-store/vfinal/product/updstock/67c41d5a5e65093c60f1536b",
+=======
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/updstock/67c422c6ec46d40a4dc9b64f",
+>>>>>>> feature/auth
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -113,7 +141,11 @@
 						"vfinal",
 						"product",
 						"updstock",
+<<<<<<< HEAD
 						"67c41d5a5e65093c60f1536b"
+=======
+						"67c422c6ec46d40a4dc9b64f"
+>>>>>>> feature/auth
 					]
 				}
 			},
@@ -140,7 +172,11 @@
 					}
 				},
 				"url": {
+<<<<<<< HEAD
 					"raw": "http://localhost:3000/proyect-store/vfinal/product/deleteProduct/67c41fda89dcfd11ceb167ec",
+=======
+					"raw": "http://localhost:3000/proyect-store/vfinal/product/deleteProduct/67c422ceec46d40a4dc9b654",
+>>>>>>> feature/auth
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -151,7 +187,11 @@
 						"vfinal",
 						"product",
 						"deleteProduct",
+<<<<<<< HEAD
 						"67c41fda89dcfd11ceb167ec"
+=======
+						"67c422ceec46d40a4dc9b654"
+>>>>>>> feature/auth
 					]
 				}
 			},

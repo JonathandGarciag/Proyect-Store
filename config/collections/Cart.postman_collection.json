@@ -13,10 +13,40 @@
 				"header": [
 					{
 						"key": "x-token",
+<<<<<<< HEAD
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDI5OTAsImV4cCI6MTc0MDk0NjU5MH0.TghJaRcEyLyN5cU2IwuBZ16XaBDs_nojsAIM5PmLk34",
 						"type": "text"
 					}
 				]
+=======
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDEwNTE1MjgsImV4cCI6MTc0MTA1NTEyOH0.7AqEiN5mVvlFP5VYXQSwJ0miD6qISYJHTpOZeCz8n74",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"crobano@example.com\",\r\n  \"productName\": \"Laptop Gamer Pro 3901\",\r\n  \"quantity\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/cart/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"cart",
+						"add"
+					]
+				}
+>>>>>>> feature/auth
 			},
 			"response": []
 		},
@@ -68,6 +98,7 @@
 				"header": [
 					{
 						"key": "x-token",
+<<<<<<< HEAD
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDI5OTAsImV4cCI6MTc0MDk0NjU5MH0.TghJaRcEyLyN5cU2IwuBZ16XaBDs_nojsAIM5PmLk34",
 						"type": "text"
 					}
@@ -91,6 +122,34 @@
 				],
 				"url": {
 					"raw": ""
+=======
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDg2MjUsImV4cCI6MTc0MDk1MjIyNX0.zf3VKtZRGbmCICTX4ROJTHyosjuhWiQBszv6c_QEk8s",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"crobano@example.com\",\r\n    \"productName\": \"Laptop Gamer Pro 3901\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/cart/remove",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"cart",
+						"remove"
+					]
+>>>>>>> feature/auth
 				}
 			},
 			"response": []

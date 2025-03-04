@@ -1,16 +1,41 @@
 {
 	"info": {
+<<<<<<< HEAD
 		"_postman_id": "a7957a31-35ae-49d7-8a84-220a58ba0445",
 		"name": "History",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "38078627"
+=======
+		"_postman_id": "3238a859-e0ba-4e5a-afab-99d68306455a",
+		"name": "History",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42619043"
+>>>>>>> feature/auth
 	},
 	"item": [
 		{
 			"name": "View Historial",
 			"request": {
 				"method": "GET",
+<<<<<<< HEAD
 				"header": []
+=======
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/history/userRegister",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"history",
+						"userRegister"
+					]
+				}
+>>>>>>> feature/auth
 			},
 			"response": []
 		}

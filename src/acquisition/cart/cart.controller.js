@@ -43,7 +43,14 @@ export const getCart = async (req, res) => {
 
     } catch (error) {
         console.error("Error en getCart:", error);
+<<<<<<< HEAD
         return res.status(500).json({ success: false, msg: "Error al obtener el carrito" });
+=======
+        return res.status(500).json({ 
+            success: false, 
+            msg: "Error al obtener el carrito" 
+        });
+>>>>>>> feature/auth
     }
 };
 
@@ -57,6 +64,7 @@ export const removeFromCart = async (req, res) => {
 
         const updatedCart = await removeProductFromCart(cart, product._id);
 
+<<<<<<< HEAD
         return res.status(200).json({ success: true, msg: "Producto eliminado del carrito", cart: updatedCart });
     } catch (error) {
         return res.status(400).json({ success: false, msg: error.message });
@@ -80,3 +88,17 @@ export const clearCart = async (req, res) => {
         return res.status(500).json({ success: false, msg: "Error al vaciar carrito" });
     }
 };
+=======
+        return res.status(200).json({ 
+            success: true, 
+            msg: "Producto eliminado del carrito", 
+            cart: updatedCart
+        });
+    } catch (error) {
+        return res.status(400).json({ 
+            success: false, 
+            msg: error.message 
+        });
+    }
+};
+>>>>>>> feature/auth

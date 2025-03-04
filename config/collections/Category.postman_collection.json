@@ -1,6 +1,10 @@
 {
 	"info": {
+<<<<<<< HEAD
 		"_postman_id": "f07ae2d1-8b4c-4601-809e-191a1a7d6e9b",
+=======
+		"_postman_id": "2c26546d-ad82-4d23-961e-1caed4b6235e",
+>>>>>>> feature/auth
 		"name": "Category",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "38078627"
@@ -52,7 +56,25 @@
 			"name": "View Category",
 			"request": {
 				"method": "GET",
+<<<<<<< HEAD
 				"header": []
+=======
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/proyect-store/vfinal/category/viewCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"proyect-store",
+						"vfinal",
+						"category",
+						"viewCategory"
+					]
+				}
+>>>>>>> feature/auth
 			},
 			"response": []
 		},

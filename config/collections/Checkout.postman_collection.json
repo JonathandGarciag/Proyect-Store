@@ -7,11 +7,16 @@
 	},
 	"item": [
 		{
+<<<<<<< HEAD
 			"name": "New Request",
+=======
+			"name": "Pay - Invoice",
+>>>>>>> feature/auth
 			"request": {
 				"method": "POST",
 				"header": [
 					{
+<<<<<<< HEAD
 						"key": "Content-Type",
 						"value": "application/json",
 						"type": "text"
@@ -19,6 +24,10 @@
 					{
 						"key": "x-token",
 						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDA5NDg2MjUsImV4cCI6MTc0MDk1MjIyNX0.zf3VKtZRGbmCICTX4ROJTHyosjuhWiQBszv6c_QEk8s",
+=======
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYzFjODFhNTBlZTVkMTg3NTFjOTQiLCJpYXQiOjE3NDEwNTE1MjgsImV4cCI6MTc0MTA1NTEyOH0.7AqEiN5mVvlFP5VYXQSwJ0miD6qISYJHTpOZeCz8n74",
+>>>>>>> feature/auth
 						"type": "text"
 					}
 				],

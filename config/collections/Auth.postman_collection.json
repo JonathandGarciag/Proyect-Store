@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Carlos Borrayo\",\r\n    \"username\": \"pallo\",\r\n    \"email\": \"pallo@example.com\",\r\n    \"password\": \"12345678\"\r\n}\r\n",
+					"raw": "{\r\n  \"name\": \"Diego García\",\r\n  \"username\": \"D1egg\",\r\n  \"email\": \"D1egg@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -75,7 +75,11 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
+<<<<<<< HEAD
 					"raw": "{\r\n  \"email\": \"D1egg@example.com\",\r\n  \"password\": \"12345678\"\r\n}",
+=======
+					"raw": "{\r\n  \"email\": \"crobano@example.com\",\r\n  \"password\": \"12345678\"\r\n}\r\n",
+>>>>>>> feature/auth
 					"options": {
 						"raw": {
 							"language": "json"
@@ -106,7 +110,7 @@
 				"header": [
 					{
 						"key": "x-token",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2JkZDMwN2VkNjI3ZGMyMzZlMjFjY2EiLCJpYXQiOjE3NDA0OTcxNzUsImV4cCI6MTc0MDUwMDc3NX0.lW7keGEaC7K1S9N_BmbLzfgRMvpv2uqRPTqjOy85WjQ",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2MzYWJhY2MxMWY5NDg1YWFkNGM2NDMiLCJpYXQiOjE3NDA4ODI0NzEsImV4cCI6MTc0MDg4NjA3MX0.fgPQcS7i7AwZGQoV28HC152zcNjaR3n3MKD78x_RpHg",
 						"type": "text"
 					}
 				],
@@ -120,7 +124,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/proyect-store/vfinal/auth/updateRole/67bdde3965ee6ed91a7e236a",
+					"raw": "http://localhost:3000/proyect-store/vfinal/auth/updateRole/67c3c20f1a50ee5d18751c9e",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -131,7 +135,7 @@
 						"vfinal",
 						"auth",
 						"updateRole",
-						"67bdde3965ee6ed91a7e236a"
+						"67c3c20f1a50ee5d18751c9e"
 					]
 				}
 			},
